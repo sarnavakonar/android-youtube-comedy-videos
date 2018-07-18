@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    tools:context="com.sarnava.myassignment.Comment">
+
+    <EditText
+        android:id="@+id/comment"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/button"
+        android:hint="Add your comment here..."
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:text="Done"
+        android:textColor="#EEEEEE"
+        android:textSize="17dp"
+        android:background="#96b93737"/>
+
+</RelativeLayout>
+
